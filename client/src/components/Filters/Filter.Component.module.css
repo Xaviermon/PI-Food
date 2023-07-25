@@ -1,0 +1,15 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+.containerSelect {
+    padding-left: 0rem;
+    width: 85%;
+    overflow: auto;
+  }
+  
+  .selectWrapper {
+    float:left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-left: 20px;
+  }

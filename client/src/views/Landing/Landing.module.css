@@ -1,0 +1,77 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+.container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    opacity: 0,3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    }
+    
+    .button{
+        position: relative;
+        background-color: rgba(169, 4, 54, 0.842);
+        border-radius: 16px;
+        box-shadow: rgb(68, 47, 55) 0px 4px 0px 0px;
+        padding: 15px;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        width: 100px;
+        height: 50px;
+        color: #fff;
+        border: none;
+        font-size: 20px;
+        transition: all .3s ease-in-out;
+        z-index: 1;
+        overflow: hidden;
+        margin-bottom: 40px;
+        cursor: pointer;
+        margin-left: -550px;
+    }
+    
+    .des{
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #0b0c0c;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(132, 130, 162), 0 0 5px rgb(82, 123, 25);
+    }
+    
+    .cont{
+        
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-right: 45%;
+        /* background-color: rgb(253, 208, 218);
+        border-radius: 5px;
+        box-shadow: rgb(138, 105, 117) 0px 4px 0px 0px; */
+        padding: 15px;
+        opacity: 0,7;
+    }
+    
+    .nombre{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }

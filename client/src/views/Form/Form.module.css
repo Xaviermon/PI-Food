@@ -1,0 +1,104 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+
+/* Estilos del contenedor que envuelve todos los items */
+.formContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Bordes suavizados */
+    background: #aad0c9;
+  }
+  
+  /* Estilos del título */
+  .error {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: end;
+    margin-bottom: 10px;
+    color:  rgba(0, 0, 255, 0.795);
+
+  }
+  
+  .formTitle {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  /* Estilos del botón */
+  .button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+    border: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-left: 100px;
+    border: 1px solid #537b7f;
+}
+
+.btnhome {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 60px;
+  height: 30px;
+  border: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 35px;
+  margin-left: 100px;
+  border: 1px solid #537b7f;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px 5px rgba(58, 113, 100, 0.765)
+}
+  
+  /* Estilos del input y textarea */
+  .inp {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+  }
+
+  .inphs {
+    width: 10%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  /* Estilos del checkbox */
+  .cont {
+    display: inline-block; /* Hacer que los elementos aparezcan en línea */
+    margin-right: 10px; /* Espacio entre checkbox y etiqueta */
+    margin-bottom: 5px;
+  }
+  
+  .check {
+    margin-right: 5px;
+  }
+  
+  /* Estilos de la línea horizontal */
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #436b66;
+  }
+  

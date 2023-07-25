@@ -1,0 +1,64 @@
+
+.containerPaginado{
+    width: 48vw;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerLi{
+    width: 48vw;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.boxLi{
+    width: 6vw;
+    height: 4vh;
+    background-color: rgb(114, 154, 151);
+    transition: all 0.2s;
+    border-radius: 10px;
+    margin: auto 0.1vw;
+}
+
+.boxLi:hover{
+    width: 7vw;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.boxLi:active{
+    width: 5vw;
+    height: 3vh;
+}
+
+.button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgba(197, 0, 0, 0);
+}
+
+
+.button:focus{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.containerButtons{
+    height: 50%;
+}
+

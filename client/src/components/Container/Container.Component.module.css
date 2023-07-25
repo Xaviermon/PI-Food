@@ -1,0 +1,15 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+.container{
+  display: flex;
+  flex-direction:row;
+  border: radius 20px;
+  flex-wrap: wrap;
+   gap:1em;
+   justify-content:space-around;
+   background-color: transparent;
+   padding: 1em;
+   margin-top: 0.8em;
+   margin-right: 0.8em;
+   margin-left: 0.8em;
+}

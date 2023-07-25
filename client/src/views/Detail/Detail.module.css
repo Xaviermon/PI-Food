@@ -1,0 +1,71 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #aad0c9;
+
+
+}
+
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.text {
+
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(1, 83, 93);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+
+}
+
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+    border: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-left: 100px;
+    border: 1px solid #537b7f;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px 5px rgba(58, 113, 100, 0.765)
+}

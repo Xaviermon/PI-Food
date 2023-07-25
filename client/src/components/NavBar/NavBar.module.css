@@ -1,0 +1,44 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+.mainContainer {
+    background-color: rgba(183, 235, 218, 0.683);
+    box-shadow: rgba(95, 97, 97, 0.968) 0px 4px 0px 0px;
+    display: inline;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45px;
+    width: 100%;
+    padding-top: 0.7em;
+    padding-left: 13em;
+  
+  }
+
+    
+  .button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 150px;
+    height: 30px;
+    border: 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-left: 100px;
+    border: 1px solid #537b7f;
+    justify-content: space-around;
+    box-shadow: rgba(50, 82, 72, 0.968) 0px 4px 0px 0px;
+}
+
+.button:hover {
+    box-shadow: 5px 5px 5px 5px rgba(58, 113, 100, 0.765)
+}

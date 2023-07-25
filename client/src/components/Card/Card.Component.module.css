@@ -1,0 +1,45 @@
+ @import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 13%;
+  border-radius: 0.625em;
+  background-color: rgb(234, 235, 235);
+  padding: 0.3em;
+  justify-content: center;
+  border: black
+}
+
+.card:hover {
+  box-shadow: 5px 9px 18px 0 rgba(56, 55, 57, 0.863);
+}
+
+ .name {
+
+   font-size: 15px;
+   letter-spacing: 0px;
+   word-spacing: 2px;
+   color: #000000;
+   font-weight: 700;
+   text-decoration: none solid rgb(68, 68, 68);
+   font-style: normal;
+   font-variant: small-caps;
+   text-transform: none;
+   margin-bottom: 15px;
+   margin-left: 15px;
+ }
+
+ .image {
+  border-radius: 3px 3px 3px 3px;
+  justify-content: center;
+  width: 10em;
+  height: 8em;
+  filter: brightness(110%);
+  border-color: rgb(76, 117, 107);
+  margin-bottom: 15px;
+  margin-top: 20px ;
+  margin-right: 15px;
+  padding: 0.5em;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.google.com/specimen/Montserrat?query=montserrat');
+
+.container {
+  width: 100%;
+  background: #aad0c9;
+
+  
+
+  .name {
+    margin-top: 50px;
+    margin-left: 450px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 24px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-bottom: 50px;
+  }
+  .contenedorSelect {
+
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+  .cointainerViews{
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.containerPaginado{
+    height:14vh;
+}
+
+}
